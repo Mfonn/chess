@@ -1,7 +1,7 @@
 const BOARD_WIDTH = 10;
 const BOARD_HEIGHT = 20;
 
-const TILE_SIZE = 50;
+const TILE_SIZE = 80;
 const WHITE_TILE_COLOR = "#892cdc";
 const BLACK_TILE_COLOR = "#52057b";
 const HIGHLIGHT_COLOR = "#bc6ff1";
@@ -382,7 +382,7 @@ function drawPieces() {
             if (board.tiles[i][j].team === WHITE) {
                 chessCtx.fillStyle = "white";
             } else {
-                chessCtx.fillStyle = "blue";
+                chessCtx.fillStyle = "gold";
             }
             
             chessCtx.font = "38px Arial";
