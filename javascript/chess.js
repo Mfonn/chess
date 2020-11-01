@@ -1,5 +1,5 @@
-const BOARD_WIDTH = 10;
-const BOARD_HEIGHT = 20;
+const BOARD_WIDTH = 8;
+const BOARD_HEIGHT = 8;
 
 const TILE_SIZE = 80;
 const WHITE_TILE_COLOR = "#892cdc";
